@@ -34,7 +34,7 @@ const nurseServices = [
   },
   {
     id: 2,
-    title: "Cuidado de Pacientes con Gastrostomia",
+    title: "Cuidado de Pacientes con Gastrostomía",
     icon: (
       <svg
         fill='#ec4899'
@@ -54,7 +54,7 @@ const nurseServices = [
   },
   {
     id: 3,
-    title: "Cuidado de Pacientes con Traquostomia",
+    title: "Cuidado de Pacientes con Traqueostomía",
     icon: (
       <svg
         fill='#ec4899'
