@@ -6,7 +6,7 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "https://rickandmortyapi.com/",
+        hostname: "res.cloudinary.com",
       },
     ],
   },

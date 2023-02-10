@@ -3,7 +3,7 @@ import { Card } from "flowbite-react"
 const nurseServices = [
   {
     id: 1,
-    title: "Cuidado Pacientes Postrados",
+    title: "Cuidado de Pacientes Postrados",
     icon: (
       <svg
         viewBox='0 0 512 512'
@@ -12,12 +12,12 @@ const nurseServices = [
         fill='#ec4899'
         width={100}
         height={100}>
-        <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+        <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
         <g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g>
         <g id='SVGRepo_iconCarrier'>
           {" "}
           <title>health</title>{" "}
-          <g id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'>
+          <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
             {" "}
             <g id='add' fill='#ec4899' transform='translate(42.666667, 64.000000)'>
               {" "}
@@ -34,7 +34,7 @@ const nurseServices = [
   },
   {
     id: 2,
-    title: "Cuidado Pacientes Gastrotomia",
+    title: "Cuidado de Pacientes con Gastrostomia",
     icon: (
       <svg
         fill='#ec4899'
@@ -43,7 +43,7 @@ const nurseServices = [
         viewBox='0 0 32 32'
         version='1.1'
         xmlns='http://www.w3.org/2000/svg'>
-        <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+        <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
         <g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g>
         <g id='SVGRepo_iconCarrier'>
           <path d='M15,16.993l-2.007,0c-0.551,0 -1,0.449 -1,1c0,0.552 0.449,1 1,1l2.007,0l-0,2.007c-0,0.552 0.448,1 1,1c0.552,0 1,-0.448 1,-1l-0,-2.007l2.007,0c0.551,0 1,-0.448 1,-1c-0,-0.551 -0.449,-1 -1,-1l-2.007,0l-0,-2.006c-0,-0.552 -0.448,-1 -1,-1c-0.552,-0 -1,0.448 -1,1l-0,2.006Z'></path>
@@ -54,7 +54,7 @@ const nurseServices = [
   },
   {
     id: 3,
-    title: "Cuidado Pacientes Traquostomia",
+    title: "Cuidado de Pacientes con Traquostomia",
     icon: (
       <svg
         fill='#ec4899'
@@ -63,7 +63,7 @@ const nurseServices = [
         viewBox='0 0 32 32'
         version='1.1'
         xmlns='http://www.w3.org/2000/svg'>
-        <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+        <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
         <g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g>
         <g id='SVGRepo_iconCarrier'>
           <path d='M25.912,5c-0,-0.796 -0.316,-1.559 -0.879,-2.121c-0.562,-0.563 -1.325,-0.879 -2.121,-0.879c-3.431,-0 -10.4,-0 -13.831,-0c-0.795,-0 -1.558,0.316 -2.121,0.879c-0.563,0.562 -0.879,1.325 -0.879,2.121l0,22c0,0.796 0.316,1.559 0.879,2.121c0.563,0.563 1.326,0.879 2.121,0.879c3.431,0 10.4,0 13.831,0c0.796,0 1.559,-0.316 2.121,-0.879c0.563,-0.562 0.879,-1.325 0.879,-2.121l-0,-22Zm-2,-0l-0,22c-0,0.265 -0.105,0.52 -0.293,0.707c-0.188,0.188 -0.442,0.293 -0.707,0.293l-13.831,-0c-0.265,0 -0.519,-0.105 -0.707,-0.293c-0.187,-0.187 -0.293,-0.442 -0.293,-0.707c0,-0 0,-22 0,-22c0,-0.265 0.106,-0.52 0.293,-0.707c0.188,-0.188 0.442,-0.293 0.707,-0.293l13.831,-0c0.265,-0 0.519,0.105 0.707,0.293c0.188,0.187 0.293,0.442 0.293,0.707Z'></path>
@@ -80,7 +80,7 @@ const nurseServices = [
   },
   {
     id: 4,
-    title: "Cuidado Pacientes Postquirurgicos",
+    title: "Cuidado de Pacientes Postquirurgicos",
     icon: (
       <svg
         fill='#ec4899'
@@ -89,7 +89,7 @@ const nurseServices = [
         viewBox='0 0 32 32'
         version='1.1'
         xmlns='http://www.w3.org/2000/svg'>
-        <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+        <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
         <g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g>
         <g id='SVGRepo_iconCarrier'>
           <path d='M7.001,15.004l6.999,-0.004c0.335,-0 0.646,-0.167 0.832,-0.445l0.168,-0.253c0,-0 -0,2.697 -0,2.697c-0,0.405 0.243,0.769 0.617,0.924c0.374,0.155 0.804,0.07 1.09,-0.216l2.704,-2.704c0,-0 5.583,0.036 5.583,0.036c0.551,0.003 1.002,-0.442 1.006,-0.994c0.004,-0.552 -0.442,-1.003 -0.994,-1.006l-6,-0.039c-0.267,-0.002 -0.524,0.104 -0.713,0.293l-1.293,1.292c0,0 0.001,-3.585 0.001,-3.585c0,-0.441 -0.288,-0.83 -0.71,-0.957c-0.422,-0.128 -0.877,0.035 -1.122,0.402l-1.704,2.555c-0,0 -6.466,0.004 -6.466,0.004c-0.552,0 -0.999,0.449 -0.999,1.001c0,0.552 0.449,0.999 1.001,0.999Z'></path>
@@ -102,36 +102,28 @@ const nurseServices = [
 
 const Services = () => {
   return (
-    <section className='bg-pink-300'>
+    <section
+      className='bg-gradient-to-r from-pink-200 to-violet-200 min-h-screen flex items-center pt-20 sm:pt-0'
+      id='services'>
       <div className='mx-auto max-w-7xl py-6 sm:px-6 lg:px-8 '>
-        <p className='text-3xl font-bold text-center text-violet-500 mb-4'>Servicios Ofrecidos</p>
+        <p className='text-5xl font-bold text-center text-violet-500 mb-4'>Servicios</p>
         <div className='px-4 py-6 sm:px-0'>
-          <div className='h-96 px-6 rounded-lg border-4 border-dashed border-gray-200'>
+          <div className='min-h-fit px-6 pb-6 rounded-lg border-4 border-dashed border-gray-200'>
             <div className='mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8'>
               {nurseServices.map((service) => (
-                <div key={service.id} className='group relative'>
-                  <div className='min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-80 lg:aspect-none lg:h-80 p-4'>
+                <div key={service.id} className='group relative mt-4'>
+                  <div className='h-30 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-80 lg:aspect-none lg:h-52 p-4'>
                     <div className='flex justify-center'>
                       <div className='border-8 bg-white border-violet-500 rounded-full w-fit h-fit p-2 absolute -top-12'>
                         {service.icon}
                       </div>
                     </div>
-                    <h3 className='text-md text-gray-700 text-center mt-20 font-bold'>
+                    <h3 className='text-xl text-gray-700 text-center mt-20 font-bold'>
                       <a href={""}>
                         <span aria-hidden='true' className='absolute inset-0' />
                         {service.title}
                       </a>
                     </h3>
-                    <p className='text-center text-gray-600'>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quaerat doloribus praesentium
-                      provident autem modi inventore eum veritatis error ratione, ut iusto vel ducimus velit consequatur
-                      id magnam nihil repudiandae.
-                    </p>
-                    {/*  <img
-                      src={product.imageSrc}
-                      alt={product.imageAlt}
-                      className='h-full w-full object-cover object-center lg:h-full lg:w-full'
-                    /> */}
                   </div>
                 </div>
               ))}

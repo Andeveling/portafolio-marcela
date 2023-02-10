@@ -1,12 +1,13 @@
 import Link from "next/link"
-import { HeartIcon } from "@heroicons/react/24/solid"
 
 const Logo = () => {
   return (
     <div className='flex-shrink-0'>
-      <Link href={"/"} className='flex'>
-        {/*  <HeartIcon className='h-8 w-8 text-red-500' /> */}
-        <span className='text-3xl text-violet-500 font-extrabold'>Marcela Salazar</span>
+      <Link href={"/"} className='flex items-center'>
+        {/* <HeartIcon className='h-6 w-6 text-red-500' /> */}
+        <span className='text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-extrabold'>
+          Marcela Salazar
+        </span>
       </Link>
     </div>
   )
